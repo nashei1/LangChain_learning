@@ -13,3 +13,5 @@ pip install langchain langchain-community dashscope chromadb
 ### 使用prompt template对象可以进入chain
 
 ![alt text](image.png)
+
+### chain：上一个组件的输出作为下一个组件的输入 runnable子类才能入chain
