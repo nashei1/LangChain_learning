@@ -10,8 +10,13 @@ pip install langchain langchain-community dashscope chromadb
 
 ### LangChain支持LLMs、Chat Models、Embeddings Models
 
+### 模型输入是prompt value、str、list，输出是aimessage
+### template输入是字典，输出是prompt value
+
 ### 使用prompt template对象可以进入chain
 
 ![alt text](image.png)
 
 ### chain：上一个组件的输出作为下一个组件的输入 runnable子类才能入chain
+
+### 解析器 Parser 解决模型输出无法输入模型的问题
