@@ -2,6 +2,8 @@
 ```
 pip install openai
 pip install langchain langchain-community dashscope chromadb
+pip install jq
+pip install pypdf
 ```
 
 ## RAG 检索增强生成
@@ -20,3 +22,5 @@ pip install langchain langchain-community dashscope chromadb
 ### chain：上一个组件的输出作为下一个组件的输入 runnable子类才能入chain
 
 ### 解析器 Parser 解决模型输出无法输入模型的问题
+
+### Loader返回Document类对象
